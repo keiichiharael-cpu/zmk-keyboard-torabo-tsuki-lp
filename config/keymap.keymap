@@ -20,11 +20,11 @@
 
         layer_0 {
             bindings = <
-&trans  &trans              &trans            &trans          &trans          &trans                                        &trans       &trans           &trans     &trans    &trans                &trans
-&trans  &kp Q               &kp L             &kp U           &kp MINUS       &kp DELETE                                    &kp F        &kp W            &kp R      &kp Y     &kp P                 &trans
-&trans  &mt LEFT_CONTROL E  &mt LEFT_SHIFT I  &mt LEFT_ALT A  &mt LEFT_GUI O  &kp COMMA   &trans     &trans                 &kp K        &mt RIGHT_GUI T  &kp K      &kp L     &kp SEMI              &trans
-&trans  &kp Z               &kp X             &kp C           &kp V           &kp PERIOD  &kp SPACE  &kp RET                &kp N        &kp M            &kp COMMA  &kp DOT   &mt RIGHT_SHIFT FSLH  &trans
-&trans  &kp LCTRL           &kp LGUI          &to 3           &kp TAB         &kp SPACE   &kp ENTER  &mt RSHIFT LANGUAGE_2  &lt 3 ENTER  &trans           &trans     &kp RGUI  &kp RCTRL             &trans
+&trans  &trans              &trans            &trans          &trans          &trans                          &trans       &trans           &trans           &trans     &trans                &trans
+&trans  &kp Q               &kp L             &kp U           &kp MINUS       &kp DELETE                      &kp F        &kp W            &kp R            &kp Y      &kp P                 &trans
+&trans  &mt LEFT_CONTROL E  &mt LEFT_SHIFT I  &mt LEFT_ALT A  &mt LEFT_GUI O  &kp COMMA   &trans     &trans   &kp K        &mt RIGHT_GUI T  &mt RIGHT_ALT N  &kp L      &kp SEMI              &trans
+&trans  &kp Z               &kp X             &kp C           &kp V           &kp PERIOD  &kp SPACE  &kp RET  &kp N        &kp M            &kp COMMA        &kp DOT    &mt RIGHT_SHIFT FSLH  &trans
+&trans  &kp LCTRL           &kp LGUI          &to 3           &kp TAB         &kp SPACE   &kp ENTER  &to 1    &lt 2 LANG2  &trans           &trans           &mkp LCLK  &mkp RCLK             &trans
             >;
         };
 
