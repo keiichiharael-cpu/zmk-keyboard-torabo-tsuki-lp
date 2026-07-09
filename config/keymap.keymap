@@ -16,9 +16,9 @@
     };
 
     behaviors {
-        new_behavior: new_behavior {
+        td0: td0 {
             compatible = "zmk,behavior-tap-dance";
-            label = "NEW_BEHAVIOR";
+            label = "TD0";
             #binding-cells = <0>;
             bindings = <&kp LEFT_PARENTHESIS>, <&kp LESS_THAN>;
         };
@@ -49,11 +49,11 @@
 
         layer_2 {
             bindings = <
-&trans  &trans            &trans             &trans         &trans                &trans                                 &trans     &trans      &trans     &trans     &trans         &trans
-&trans  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp UNDER      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                  &trans     &trans      &trans     &kp CARET  &kp PERCENT    &trans
-&trans  &kp EQUAL         &trans             &kp AMPERSAND  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans  &kp ASTRK  &kp APOS    &kp TILDE  &kp SLASH  &kp HASH       &trans
-&trans  &trans            &kp SEMI           &kp COLON      &kp PIPE              &trans                 &trans  &trans  &trans     &kp DOLLAR  &kp AT     &trans     &kp BACKSLASH  &trans
-&trans  &trans            &trans             &trans         &kp EXCL              &kp QUESTION           &trans  &trans  &kp TAB    &trans      &trans     &trans     &trans         &trans
+&trans  &trans            &trans             &trans         &trans            &trans                                 &trans     &trans      &trans     &trans     &trans         &trans
+&trans  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp UNDER      &td0              &kp RIGHT_PARENTHESIS                  &trans     &trans      &trans     &kp CARET  &kp PERCENT    &trans
+&trans  &kp EQUAL         &trans             &kp AMPERSAND  &kp LEFT_BRACKET  &kp RIGHT_BRACKET      &trans  &trans  &kp ASTRK  &kp APOS    &kp TILDE  &kp SLASH  &kp HASH       &trans
+&trans  &trans            &kp SEMI           &kp COLON      &kp PIPE          &trans                 &trans  &trans  &trans     &kp DOLLAR  &kp AT     &trans     &kp BACKSLASH  &trans
+&trans  &trans            &trans             &trans         &kp EXCL          &kp QUESTION           &trans  &trans  &kp TAB    &trans      &trans     &trans     &trans         &trans
             >;
         };
 
