@@ -36,11 +36,11 @@
 
         layer_0 {
             bindings = <
-&trans  &trans              &trans            &trans          &trans          &trans                              &trans       &trans           &trans           &trans             &trans       &trans
-&trans  &kp Q               &kp L             &kp U           &kp MINUS       &kp BACKSPACE                       &kp F        &kp W            &kp R            &kp Y              &kp P        &trans
-&trans  &mt LEFT_CONTROL E  &mt LEFT_SHIFT I  &mt LEFT_ALT A  &mt LEFT_GUI O  &kp COMMA      &trans      &trans   &kp K        &mt RIGHT_GUI T  &mt RIGHT_ALT N  &mt RIGHT_SHIFT S  &mt RCTRL H  &trans
-&trans  &kp Z               &kp X             &kp C           &kp V           &kp PERIOD     &bt BT_NXT  &kp RET  &kp G        &kp D            &kp M            &kp J              &kp B        &trans
-&trans  &kp ESCAPE          &to 3             &kp LANGUAGE_2  &kp TAB         &kp SPACE      &kp ENTER   &mo 1    &lt 2 LANG1  &trans           &trans           &mkp LCLK          &mkp RCLK    &trans
+&trans  &trans              &trans            &trans          &trans          &trans                              &trans               &trans           &trans           &trans             &trans       &trans
+&trans  &kp Q               &kp L             &kp U           &kp MINUS       &kp BACKSPACE                       &kp F                &kp W            &kp R            &kp Y              &kp P        &trans
+&trans  &mt LEFT_CONTROL E  &mt LEFT_SHIFT I  &mt LEFT_ALT A  &mt LEFT_GUI O  &kp COMMA      &trans      &trans   &kp K                &mt RIGHT_GUI T  &mt RIGHT_ALT N  &mt RIGHT_SHIFT S  &mt RCTRL H  &trans
+&trans  &kp Z               &kp X             &kp C           &kp V           &kp PERIOD     &bt BT_NXT  &kp RET  &kp G                &kp D            &kp M            &kp J              &kp B        &trans
+&trans  &kp ESCAPE          &mo 3             &kp LANGUAGE_2  &kp TAB         &kp SPACE      &kp ENTER   &mo 1    &lt 2 LANG_HIRAGANA  &trans           &trans           &mkp LCLK          &mkp RCLK    &trans
             >;
         };
 
