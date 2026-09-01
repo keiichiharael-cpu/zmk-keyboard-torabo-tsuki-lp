@@ -34,6 +34,7 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             bindings = <&kp>, <&kp>;
+
             flavor = "balanced";
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
@@ -53,6 +54,7 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             bindings = <&kp>, <&kp>;
+
             flavor = "balanced";
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
@@ -74,11 +76,11 @@
 
         layer_0 {
             bindings = <
-&trans  &trans               &trans             &trans           &trans           &trans                                &trans        &trans            &trans            &trans              &trans        &trans
-&trans  &kp Q                &kp L              &kp U            &kp MINUS        &kp BACKSPACE                         &kp F         &kp W             &kp R             &kp Y               &kp P         &trans
-&trans  &hml LEFT_CONTROL E  &hml LEFT_SHIFT I  &hml LEFT_ALT A  &hml LEFT_GUI O  &kp COMMA      &trans      &trans     &kp K         &hmr RIGHT_GUI T  &hmr RIGHT_ALT N  &hmr RIGHT_SHIFT S  &hmr RCTRL H  &trans
-&trans  &kp Z                &kp X              &kp C            &kp V            &kp PERIOD     &bt BT_NXT  &kp RET     &kp G         &kp D             &kp M             &kp J               &kp B         &trans
-&trans  &kp ESCAPE           &mo 3              &kp TAB          &kp LANG2        &kp SPACE      &kp ENTER   &mo 1       &lt 2 LANG1   &trans            &trans            &mkp LCLK           &mkp RCLK     &trans
+&trans  &trans               &trans             &trans           &trans           &trans                             &trans       &trans            &trans            &trans              &trans        &trans
+&trans  &kp Q                &kp L              &kp U            &kp MINUS        &kp BACKSPACE                      &kp F        &kp W             &kp R             &kp Y               &kp P         &trans
+&trans  &hml LEFT_CONTROL E  &hml LEFT_SHIFT I  &hml LEFT_ALT A  &hml LEFT_GUI O  &kp COMMA      &trans     &trans   &kp K        &hmr RIGHT_GUI T  &hmr RIGHT_ALT N  &hmr RIGHT_SHIFT S  &hmr RCTRL H  &trans
+&trans  &kp Z                &kp X              &kp C            &kp V            &kp PERIOD     &kp TAB    &kp RET  &kp G        &kp D             &kp M             &kp J               &kp B         &trans
+&trans  &kp ESCAPE           &bt BT_NXT         &mo 3            &kp LANG2        &kp SPACE      &kp ENTER  &mo 1    &lt 2 LANG1  &trans            &trans            &mkp LCLK           &mkp RCLK     &trans
             >;
         };
 
