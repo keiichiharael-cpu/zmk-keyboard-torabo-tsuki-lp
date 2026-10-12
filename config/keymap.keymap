@@ -73,22 +73,22 @@
         layer_0 {
             display-name = "layer_0";
             bindings = <
-&trans  &trans   &trans        &trans       &trans       &trans                             &trans        &trans       &trans       &trans        &trans        &trans
-&trans  &kp Q    &kp L         &kp U        &kp MINUS    &kp BSPC                           &kp F         &kp W        &kp R        &kp Y         &kp P         &trans
-&trans  &kp E    &hml LSHFT I  &hml LALT A  &hml LGUI O  &hml LCTRL COMMA  &trans   &trans  &hmr RCTRL K  &hmr RGUI T  &hmr RALT N  &hmr RSHFT S  &hmr RCTRL H  &trans
-&trans  &kp Z    &kp X         &kp C        &kp V        &kp DOT           &kp TAB  &trans  &kp G         &kp D        &kp M        &kp J         &kp B         &trans
-&trans  &kp ESC  &trans        &mkp LCLK    &lt 3 LANG2  &kp SPACE         &kp RET  &mo 1   &lt 2 LANG1   &none        &none        &mkp RCLK     &trans        &trans
+&trans  &trans   &trans        &trans       &trans       &trans                             &trans        &trans       &trans       &trans        &trans  &trans
+&trans  &kp Q    &kp L         &kp U        &kp MINUS    &kp BSPC                           &kp F         &kp W        &kp R        &kp Y         &kp P   &trans
+&trans  &kp E    &hml LSHFT I  &hml LALT A  &hml LGUI O  &hml LCTRL COMMA  &trans   &trans  &hmr RCTRL K  &hmr RGUI T  &hmr RALT N  &hmr RSHFT S  &kp H   &trans
+&trans  &kp Z    &kp X         &kp C        &kp V        &kp DOT           &kp TAB  &trans  &kp G         &kp D        &kp M        &kp J         &kp B   &trans
+&trans  &kp ESC  &trans        &mkp LCLK    &lt 3 LANG2  &kp SPACE         &kp RET  &mo 1   &lt 2 LANG1   &none        &none        &mkp RCLK     &trans  &trans
             >;
         };
 
         layer_1 {
             display-name = "layer_1";
             bindings = <
-&trans  &trans     &trans  &trans  &trans  &trans                  &trans    &trans     &trans     &trans    &trans     &trans
-&trans  &trans     &kp N7  &kp N8  &kp N9  &trans                  &trans    &trans     &trans     &trans    &kp PRCNT  &trans
-&trans  &kp COLON  &kp N4  &kp N5  &kp N6  &trans  &trans  &trans  &trans    &mkp LCLK  &mkp RCLK  &trans    &trans     &trans
-&trans  &kp N0     &kp N1  &kp N2  &kp N3  &trans  &trans  &trans  &kp PLUS  &kp MINUS  &kp STAR   &kp FSLH  &trans     &trans
-&trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans     &trans    &trans     &trans
+&trans  &trans     &trans  &trans  &trans  &trans                  &trans      &trans     &trans    &trans     &trans     &trans
+&trans  &trans     &kp N7  &kp N8  &kp N9  &trans                  &trans      &trans     &trans    &trans     &kp PRCNT  &trans
+&trans  &kp COLON  &kp N4  &kp N5  &kp N6  &trans  &trans  &trans  &kp LCTRL   &kp LGUI   &kp LALT  &kp LSHFT  &trans     &trans
+&trans  &kp N0     &kp N1  &kp N2  &kp N3  &trans  &trans  &trans  &kp PLUS    &kp MINUS  &kp STAR  &kp FSLH   &trans     &trans
+&trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans  &caps_word  &trans     &trans    &trans     &trans     &trans
             >;
         };
 
@@ -106,11 +106,11 @@
         layer_3 {
             display-name = "layer_3";
             bindings = <
-&trans  &trans   &trans   &trans        &trans        &trans                      &trans    &trans     &trans     &trans     &trans    &trans
-&trans  &kp F1   &kp F2   &kp F3        &kp F4        &kp F5                      &kp HOME  &kp PG_UP  &kp PG_DN  &kp END    &kp ESC   &trans
-&trans  &kp F6   &kp F7   &kp F8        &kp F9        &kp F10     &trans  &trans  &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp TAB   &trans
-&trans  &kp F11  &kp F12  &out OUT_USB  &out OUT_BLE  &bt BT_NXT  &trans  &trans  &kp SQT   &kp DQT    &kp GRAVE  &kp TILDE  &kp PIPE  &trans
-&trans  &trans   &trans   &trans        &kp DEL       &kp TAB     &trans  &trans  &trans    &trans     &trans     &trans     &trans    &trans
+&trans  &trans  &trans     &trans        &trans        &trans                      &trans    &trans     &trans     &trans     &trans    &trans
+&trans  &trans  &trans     &trans        &trans        &trans                      &kp HOME  &kp PG_UP  &kp PG_DN  &kp END    &kp ESC   &trans
+&trans  &trans  &kp LSHFT  &kp LCTRL     &kp LGUI      &kp LCTRL   &trans  &trans  &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp TAB   &trans
+&trans  &trans  &trans     &out OUT_USB  &out OUT_BLE  &bt BT_NXT  &trans  &trans  &kp SQT   &kp DQT    &kp GRAVE  &kp TILDE  &kp PIPE  &trans
+&trans  &trans  &trans     &trans        &trans        &kp TAB     &trans  &trans  &trans    &trans     &trans     &trans     &trans    &trans
             >;
         };
 
